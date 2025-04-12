@@ -73,4 +73,4 @@ def set_webhook():
 
 if __name__ == "__main__":
     set_webhook()
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080))
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
